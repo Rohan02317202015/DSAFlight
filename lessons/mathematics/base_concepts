@@ -15,6 +15,7 @@ to find the number of digits using Logrithm
      = 1 + 2
      = 3
 
+____________________________________________________________________________________________________________
 
 2. Arithmetic Progression
 
@@ -55,3 +56,149 @@ Second term = a.r^(1)
 Third term = a.r^(2)
 ....Last term = a.r^(n-1)
 
+Sum of a GP = (a(1-r^n))/(1-r)
+
+____________________________________________________________________________________________________________
+
+3. Quadratic Equations
+
+-> A Quadratic Equation looks like : 
+       ax^2 + bx + c = 0
+
+    Generally we have to find the roots of this equation, which means letting x such a value that turns
+    LHS equals to RHS (i.e, 0).Then we can say value of x is the root or satisfies this equation.
+
+    * For a Quadratic equation we can have max 2 roots. And the number of roots that can satisfy this equation
+    totally dependent upon the term called Descriminan, denoted by 'D'.
+
+          D = b^2 - 4ac
+
+          If,
+           D < 0, [We have imaginary roots]
+           D = 0, [We have 2 equal roots]
+           D > 0, [We have 2 distinct roots]
+
+
+    * Now to calculate the roots of the equation we can use formula :
+
+          x = (-b (+-) Sq.root(b^2 - 4ac))/ 2a      [Since, D = b^2 - 4ac]
+        
+          x = (-b (+-) Sq.root(D)/ 2a 
+
+
+____________________________________________________________________________________________________________
+
+4. Mean and Median
+-> Mean of a statistical data can be found as :
+   Mean = Sum of all the entries / number of entries  [Can be said same as Average ]
+
+
+-> Median of a statistical data is the middlest term of the enteries in the order it is provided
+
+ If number of entries(n) is even :
+  
+  Median = X[n/2] 
+
+
+ If number of entries(n) is odd :
+
+  Median  = ( X[(n-1)/2] + X[(n+1)/2] ) / 2 
+
+
+
+ ** X = ordered list of values in the dataset
+    n = number of values in the dataset
+
+
+____________________________________________________________________________________________________________
+
+5. Prime number
+
+-> Prime number are those number which can divide only by 1 and itself, except 1 is not a Prime number.
+   e.g. 2,3,5,7,11,13,......,etc.
+
+  Every prime number can be represent as 
+      
+         --> 6n + 1 or 6n -1   [except 2 and 3 which are prime numbers but can't be represent using those equations]
+
+** 2 and 3 are the only consecutive Prime Numbers.
+
+
+
+____________________________________________________________________________________________________________
+
+6. LCM and HCF
+
+- To understand LCM and HCF first we need to understand Factors and Multiples.
+
+# Factors  : All the number that divide a number completely i.e., without leaving any remainder, are called 
+  factors of that number.
+
+  e.g., 
+      16 can be completely divided by 2,4,8,16
+      Hence 2,4,8 and 16 are the factors of 16
+
+# Multiple : The opposite of factor is Multiple,i.e, 16 is the multiple of 2,4,8 and 16.
+ Hence we can say any number that can be equal to the given number by multiplying it with any another number.
+
+
+# LCM : Least Common Multiple of two or more number is the smallest number other than 0 , that is multiple of
+  each number. 
+   e.g., LCM of 4 and 6
+   Multiples of 4 = 4,8,12,16,20,24......
+   Multiples of 6 = 6,12,18,24,30,... 
+   Common Multiples of 4 and 6 = 12,24....
+   Least Common Multiple = 12
+
+
+
+# HCF : Highest Common Factor of 2 or more given numbers is the Highest number which exactly divides all the numbers.
+
+e.g., HCF of 12 and 16
+Factors of 12 = 2,3,4,6 and 12
+Factors of 16 = 2,4,8 and 16
+Common Factor =  2,4
+HCF = 4
+
+
+
+ ____________________________________________________________________________________________________________
+
+ 7.  Factorials 
+
+ Factorial of a positive number n, is a product or all the numbers that are smaller than the given number 
+ but only upto 1. Factorial is represented by `!` sign. 
+
+  n! = n * (n-1) * (n-2) * (n-3) * (n-4) *.........*1
+
+ e.g, 5! = 5 * 4 * 3 * 2 * 1 = 120
+
+ ** 0! is always 1.
+
+ ____________________________________________________________________________________________________________
+
+ 8. Permutation and Combination Basics
+
+ # Permutation : Permutation is defined as arrangements of r thing that can be done out of total n things.
+
+ This is denoted by n(upwards)P(downwards)r which is equal to :
+            = n! / (n-r)! 
+      
+
+ # Combination : Combination is defined as selection of r thing that can be done out of total n things.
+
+ This is denoted by n(upwards)C(downwards)r which is equal to :
+            = n! / (r!*(n-r)!) 
+      
+
+ ____________________________________________________________________________________________________________
+
+ 9. Modular Arithmetic
+
+ -> The remainder obtained after the division operation on two operands is known as Modulo Operation.
+ -> Operator for doing Modulas operation is `%` symbol.
+ -> In most programming competitions, we are required to answer the result in 10^9+7 modulo. The reason
+    behind this is, if problem constraints are large integers, only efficient algorithms can solve them 
+    in an allowed limited time.
+
+    e.g. 11%4  (11 modulo 4) = 3 
