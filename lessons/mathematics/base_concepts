@@ -1,0 +1,57 @@
+# Base Concepts of Mathematics
+
+1. Count number digits in a given number
+ EXP -> for ex : -> Input 265 . Output - 3
+
+There could be multiple ways to find the number of digits like
+1. Iterative way - using loop
+2. Recursive way - using Recursion
+3. Logrithmic way - Using Logrithm - Shortest way
+
+to find the number of digits using Logrithm
+     = 1 + floor(log10(number))
+     = 1 + floor(log10(265))
+     = 1 + floor(2.08)
+     = 1 + 2
+     = 3
+
+
+2. Arithmetic Progression
+
+-> An AP is a series of number where each consecutive number must have a common difference d.
+e.g. ->  2,4,6,8,10,12,14,.....n
+Common difference(d) = 2
+First term = a = 2
+Second term = a + d
+Third term = a + 2d
+Similarly Nth term = a + (n-1)d  ----> Last Term
+
+To get the sum of the terms in AP we need to understand the Average of the AP first 
+
+Average =  Sum of all terms/ number of terms
+
+Avg = Sum / n
+
+Sum = Avg * n  ---(1)
+
+Now Avg can we expressed as 
+
+Avg = ( First term + Last Term )/ 2
+
+Avg = (a + a + (n-1)d ) / 2  --------------- [First term = a, Last term = a + (n-1)d]
+
+Avg = (2a + (n-1)d) /2   ---- (2)
+
+Putting (2) in (1)
+
+Sum = (n(2a + (n-1)d)) / 2  of an AP
+
+3. Geometric Progression
+- > A GP is a series of number where each consecutive number must have a common ratio (r).
+e.g. ->  2,4,8,16,32,.....n can be written as 2^1, 2^2 ,2^3, 2^4, 2^5, 2^6, 2^7,....,2^(n-1)
+Common ratio(r) = 2
+base term = a = 2
+Second term = a.r^(1)
+Third term = a.r^(2)
+....Last term = a.r^(n-1)
+

@@ -1,0 +1,8 @@
+To Run a file 
+- First provide the permission
+  sudo chmod 755 file.cpp
+- Ctrl+s to save
+- Ctrl + Shift + B 
+- Then run cmmnd in terminal
+ g++ filename.cpp
+ ./a.out
